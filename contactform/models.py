@@ -6,6 +6,9 @@ class Contact(models.Model):
     email=models.EmailField()
     message=models.TextField()
     created_at=models.DateTimeField(auto_now_add=True)
+    sss=models.CharField()
+    D=input()
+    f=idd()
 
     def __str__(self):
         return self.name
